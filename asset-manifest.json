@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/movie_app/static/css/main.f9e336c8.chunk.css",
-    "main.js": "/movie_app/static/js/main.1088749e.chunk.js",
-    "main.js.map": "/movie_app/static/js/main.1088749e.chunk.js.map",
-    "runtime-main.js": "/movie_app/static/js/runtime-main.98d66c69.js",
-    "runtime-main.js.map": "/movie_app/static/js/runtime-main.98d66c69.js.map",
-    "static/js/2.0a2bb4f9.chunk.js": "/movie_app/static/js/2.0a2bb4f9.chunk.js",
-    "static/js/2.0a2bb4f9.chunk.js.map": "/movie_app/static/js/2.0a2bb4f9.chunk.js.map",
-    "index.html": "/movie_app/index.html",
-    "precache-manifest.cc979b4cbb5684b1c7330fd39588e7ee.js": "/movie_app/precache-manifest.cc979b4cbb5684b1c7330fd39588e7ee.js",
-    "service-worker.js": "/movie_app/service-worker.js",
-    "static/css/main.f9e336c8.chunk.css.map": "/movie_app/static/css/main.f9e336c8.chunk.css.map",
-    "static/js/2.0a2bb4f9.chunk.js.LICENSE.txt": "/movie_app/static/js/2.0a2bb4f9.chunk.js.LICENSE.txt"
+    "main.css": "kkirru.github.io/movie_app/static/css/main.f9e336c8.chunk.css",
+    "main.js": "kkirru.github.io/movie_app/static/js/main.1088749e.chunk.js",
+    "main.js.map": "kkirru.github.io/movie_app/static/js/main.1088749e.chunk.js.map",
+    "runtime-main.js": "kkirru.github.io/movie_app/static/js/runtime-main.938fadb1.js",
+    "runtime-main.js.map": "kkirru.github.io/movie_app/static/js/runtime-main.938fadb1.js.map",
+    "static/js/2.0a2bb4f9.chunk.js": "kkirru.github.io/movie_app/static/js/2.0a2bb4f9.chunk.js",
+    "static/js/2.0a2bb4f9.chunk.js.map": "kkirru.github.io/movie_app/static/js/2.0a2bb4f9.chunk.js.map",
+    "index.html": "kkirru.github.io/movie_app/index.html",
+    "precache-manifest.d8bf34b241c342b3f31ac219dc712157.js": "kkirru.github.io/movie_app/precache-manifest.d8bf34b241c342b3f31ac219dc712157.js",
+    "service-worker.js": "kkirru.github.io/movie_app/service-worker.js",
+    "static/css/main.f9e336c8.chunk.css.map": "kkirru.github.io/movie_app/static/css/main.f9e336c8.chunk.css.map",
+    "static/js/2.0a2bb4f9.chunk.js.LICENSE.txt": "kkirru.github.io/movie_app/static/js/2.0a2bb4f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.98d66c69.js",
+    "static/js/runtime-main.938fadb1.js",
     "static/js/2.0a2bb4f9.chunk.js",
     "static/css/main.f9e336c8.chunk.css",
     "static/js/main.1088749e.chunk.js"
