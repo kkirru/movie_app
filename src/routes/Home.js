@@ -14,23 +14,24 @@ class Home extends React.Component {
 
     render() {
         const { isLoading, movies } = this.state;
-        return (<section className="container"> {
-            isLoading ? (<div className="loader">
-                {/* JSX에서는 class 대신 className 써야 함 */}
-                <span className="loader__text"> Loading... </span>
-            </div>) : <div className="movies">
-                    {movies.map(movie => {
-                        return <Movie key={movie.id}
-                            id={movie.id}
-                            year={movie.year}
-                            title={movie.title}
-                            summary={movie.summary}
-                            poster={movie.medium_cover_image}
-                            genres={movie.genres}
-                        />
-                    })}
-                </div>
-        } </section>
+        return (
+            <section className="container"> {
+                isLoading ? (<div className="loader">
+                    {/* JSX에서는 class 대신 className 써야 함 */}
+                    <span className="loader__text"> Loading... </span>
+                </div>) : <div className="movies">
+                        {movies.map(movie => {
+                            return <Movie key={movie.id}
+                                id={movie.id}
+                                year={movie.year}
+                                title={movie.title}
+                                summary={movie.summary}
+                                poster={movie.medium_cover_image}
+                                genres={movie.genres}
+                            />
+                        })}
+                    </div>
+            } </section>
         )
     }
 
@@ -38,6 +39,8 @@ class Home extends React.Component {
     // await => 여기서 기다려
     getmoives = async () => {
         const { data: { data: { movies } } } = await axios.get("https://yts-proxy.now.sh/list_movies.json?sort_by=rating"); // es6
+        // const { data: { data: { movies } } } = await axios.get("https://yts-proxy.now.sh/list_movies.json?sort_by=rating"); // es6
+        console.log(await axios.get("https://yts-proxy.now.sh/list_movies.json?sort_by=rating"));
         this.setState({ isLoading: false });
         this.setState({ movies }); // this.setState({movies : movies});
     }

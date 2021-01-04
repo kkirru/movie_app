@@ -16,6 +16,7 @@ class Detail extends React.Component {
 
     }
 
+
     // render 후에 일어나는 과정
     componentDidMount() {
         console.log(this.props);
@@ -24,8 +25,6 @@ class Detail extends React.Component {
             history.push("/");
         }
     }
-
-
 }
 
 export default Detail;
